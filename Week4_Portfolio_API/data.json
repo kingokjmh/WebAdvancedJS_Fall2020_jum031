@@ -1,0 +1,65 @@
+{"data":[
+    {
+        "website":"Recent Work",
+        "website-info":
+        [
+            {
+                "title":"Quieter",
+                "content":{
+
+                    "image":"assets/images/1.png",
+                    "parragraph":"A wearable device that effectively prevent people from bouncing legs."
+                }
+
+            }
+
+        
+        ]
+    
+    },
+
+
+    {   "website":"Previous Projects",
+        "website-info":
+        [
+            {
+                "title":"Resto",
+                "content":{
+
+                    "image":"assets/images/2.1.png",
+                    "parragraph":"A integrated hair dryer holder with wire arrangement."
+                }
+
+            },
+
+            {
+                "title":"Hindle",
+                "content":{
+
+                    "image":"assets/images/3.1.png",
+                    "parragraph":"An outdoor bench made by marine-grade plywood and reinforced fabric neoprene."
+                }
+
+            },
+
+            {
+                "title":"Derio",
+                "content":{
+
+                    "image":"assets/images/4.1.png",
+                    "parragraph":"A driving prosthetics designed for righ-hand amputees."
+                }
+
+            }
+        
+        ]
+    
+    }
+
+
+
+
+]
+
+}
+
