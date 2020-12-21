@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+
+    <title>MJ design</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+
+<h1 id="MJ DESIGN"></h1>
+
+<header>
+    <nav id="desktop">
+        <a href='index.html' style='font-size:1.5em; left:0; margin: 2vw'>MJ.DESIGN</a>
+        <a href='index.html'>WORK</a>
+        <a href=''>P5JS</a>
+        <a href='about.html'>ABOUT</a>
+    </nav>
+
+    <nav id="mobile">
+        <a href=''>MJ.DESIGN</a>
+        <a href=''>WORK</a>
+        <a href=''>P5JS</a>
+        <a href=''>ABOUT</a>
+    </nav>
+</header>
+
+<body>
+    <div id="work">
+        <div class="websites-list">
+            <script id="my-template" type="text/x-handlebars-template">
+        {{#each data}}
+         <!-- <h2>{{website}}</h2>  -->
+ 
+         {{#each work-info}}
+         <div class="website-container" style="width:100%">
+            
+            <img class="work-image" src="{{work-image}}"> 
+         </div>
+         {{/each}}
+          <div style="clear: both;"></div>
+         {{/each}}
+        </script>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/handlebars-v4.7.6.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

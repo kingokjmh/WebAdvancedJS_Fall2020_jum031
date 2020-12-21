@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+
+    <title>MJ design</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+
+<h1 id="MJ DESIGN"></h1>
+
+<header id="myHeader">
+    <nav id="desktop">
+        <a href='index.html' style='font-size:1.5em; left:0; margin: 2vw'>MJ.DESIGN</a>
+        <a href='index.html'>WORK</a>
+        <a href=''>P5JS</a>
+        <a href='about.html'>ABOUT</a>
+    </nav>
+
+    <nav id="mobile">
+        <a href=''>MJ.DESIGN</a>
+        <a href=''>WORK</a>
+        <a href=''>P5JS</a>
+        <a href=''>ABOUT</a>
+    </nav>
+</header>
+
+<body>
+    <a href='index.html'>
+    <img src="https://cdn.glitch.com/4b3720fe-d44a-4258-bec4-df89a4d8251c%2F75910016.JPG?v=1608464768665"
+        style="width: 700px; margin-top: 10vw; margin-left: 8vw; border-radius: 8px" />
+    </a>
+
+    <!-- <div class="intro">About me</div> -->
+
+    <div id="about">
+        <div class="words" style="font-size: 1.8em">Minghui Ju Jason</div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw">Born and raised in Jiangsu,
+            China. I
+            moved to New
+            York in 2015 and studied and worked there for 5 years. Currently I am in Shanghai for the Tongji Global
+            Offsite program operated by Parsons School of Design. Minghui Ju is my Chinese name and I go by Jason.</div>
+        <div class="words">About me</div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw">I really enjoyed playing
+            with the
+            products in my life and I chose industrial design as my major during my undergraduate studies. During my
+            studies at Pratt, I learned not only about the combination of form, color and function of objects, but also
+            about the history of products, which was particularly important. After that, I was keen to combine design
+            with technology and wanted to make pioneering designs. Therefore, I chose MFA DT at Parsons School of Design
+            as my next stop.
+        </div>
+        <div class="words">Study</div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - 2015-2019 MFA Design and
+            Technology at Parsons School of Design 2020 - Present
+        </div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - Global Offsite Program
+            at Tongji University 2020
+        </div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - Bachelor of Industrial
+            Design at Pratt Institute
+        </div>
+        <div class="words">Work</div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - ECCO Design Consultancy
+            Firm - Industrial Designer 2019-2020
+        </div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - 322118 Wood making
+            Company- Freelancer 2019
+        </div>
+        <div class="intro" style="font-weight: 300; line-height:1.5; float:none; width:36vw"> - Unicorn Design-
+            Industrial Design Intern 2018
+        </div>
+
+
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+
+</body>
+
+</html>

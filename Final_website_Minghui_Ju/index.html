@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+
+    <title>MJ design</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+
+<h1 id="MJ DESIGN"></h1>
+
+<header id="myHeader">
+    <nav id="desktop">
+        <a href='index.html' style='font-size:1.5em; left:0; margin: 2vw'>MJ.DESIGN</a>
+        <a href='index.html'>WORK</a>
+        <a href='https://cc-lab-minghuiju-portfo.glitch.me/index.html'>P5JS</a>
+        <a href='about.html'>ABOUT</a>
+    </nav>
+
+    <nav id="mobile">
+        <a href=''>MJ.DESIGN</a>
+        <a href=''>WORK</a>
+        <a href=''>P5JS</a>
+        <a href=''>ABOUT</a>
+    </nav>
+</header>
+
+
+
+<body>
+
+
+    <!-- <div class="words"></div>
+        <div class="words"></div>
+        <div class="words"></div>  -->
+    
+
+
+
+    <div id="hello">
+
+        <iframe width="700px" height="565px" style="border: none; margin-top: 1vw;" float = "left"
+            src="https://editor.p5js.org/jum031/embed/lKm-1iWek">
+        </iframe>
+        
+        <div class="intro" style="margin-top: 9vw; line-height: 1.5">I am currently a first year MFA DT student at Parsons. I will post my updated projects here and you can also check my previous projects.</div>
+    </div>
+        <!-- <div class="fullwidth"></div> -->
+    <div id="projects">
+        <div class="websites-list">
+            <script id="my-template" type="text/x-handlebars-template">
+              {{#each data}}
+             <h2>{{website}}</h2>
+     
+             {{#each website-info}}
+             <!-- <div class="website-container"> -->
+                <a href="{{content.website}}">
+                <img class="website-image-big" src="{{content.image-big}}" > 
+                </a>
+             <!-- </div> -->
+             <div class="website-container">
+                 <a href="{{content.website}}">
+                 <img class="website-image" src="{{content.image}}"> 
+                 </a>
+                 <!-- <h3>{{title}}</h3> -->
+                 <!-- <p>{{content.parragraph}}</p> -->
+             </div>
+             {{/each}}
+              <div style="clear: both;"></div>
+             {{/each}}
+     
+     
+            </script>
+        </div>
+    </div>
+   <nav class="footer">
+       <b style="color: rgb(200,200,200); top: 5vw;">To be continued.</b>
+   </nav>
+
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/handlebars-v4.7.6.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+    
+   
+
+
+</body>
+
+</html>

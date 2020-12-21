@@ -1,0 +1,180 @@
+{
+    "data": [
+        {
+            "website": "Projects",
+            "website-info": [
+                {
+                    "title": "Posture Owl",
+                    "content": {
+                        "image-big": "assets/images/image1.png",
+                        "parragraph": "A wearable device that can be wrapped around the leg to effectively train the user to maintain good lower body sitting posture. ",
+                        "website": "posture_owl.html"
+                    }
+                },
+                {
+                    "title": "SneakerHub",
+                    "content": {
+                        "image": "assets/images/image2.png",
+                        "parragraph": "An app for sharing and buying sneakers",
+                        "website": "sneakerhub.html"
+                    }
+                },
+                {
+                    "title": "Resto",
+                    "content": {
+                        "image": "assets/images/image3.png",
+                        "parragraph": "A integrated hair dryer holder with wire arrangement.",
+                        "website": "resto.html"
+                    }
+                }
+            ]
+        },
+        {
+            "work": "Works",
+            "work-info": [
+                {
+                    "work-image": "assets/images/ms1/1.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/2.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/3.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/4.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/5.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/6.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/7.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/8.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/9.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/10.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/11.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/12.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/13.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/14.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/15.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/16.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/17.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/18.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/19.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/20.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/21.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/22.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/23.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/24.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/25.png"
+                },
+                {
+                    "work-image": "assets/images/ms1/26.png"
+                }
+            ]
+        },
+        {
+            "work2": "Work2",
+            "work2-info": [
+                {
+                    "work2-image": "assets/images/sneakerhub/1.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/2.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/3.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/4.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/5.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/6.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/7.jpg"
+                },
+                {
+                    "work2-image": "assets/images/sneakerhub/8.jpg"
+                }
+            ]
+        },
+        {
+            "work3": "Work3",
+            "work3-info":[
+                {
+                    "work3-image": "assets/images/resto/1.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/2.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/3.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/4.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/5.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/6.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/7.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/8.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/9.jpg"
+                },
+                {
+                    "work3-image": "assets/images/resto/10.jpg"
+                }
+            ]
+        }
+    ]
+}
